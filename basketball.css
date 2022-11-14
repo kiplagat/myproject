@@ -1,0 +1,129 @@
+body{
+    text-align: center;
+    height: 100vh;
+    
+  }
+  button{
+      background: #3498db;
+      -webkit-border-radius: 11;
+      -moz-border-radius: 11;
+      border-radius: 11px;
+      font-family: Arial;
+      color: #1a181a;
+      padding: 8px 19px 8px 20px;
+      text-decoration: none;
+      width: 10px;
+      height: 45px;
+      font-size: 18px;
+
+      
+    }
+    #increment-btn {
+   background-color: darkred;
+    }
+    #save-btn {
+      background-color: darkgreen;
+       }
+    
+    .increment-btn:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+    }
+    .maindiv{
+  margin:auto;
+  border: 3px solid;
+  width: 800px;
+  background-color:darkslateblue;
+  border-radius: 10px;
+    }
+  #labeltab
+  {
+ font-size: 50px;
+ font-family: Verdana;
+ font-style: bold;
+ vertical-align: top;
+ margin-left: 85px;
+ margin-top: 68PX;
+ width: 149px;
+ height: 36px;
+ fill: solid;
+ color: #EEEEEE;
+ float: inherit;
+  }
+  #home-score1
+  {
+background-color: black;
+margin-left: 82px;
+margin-top: 125px;
+width: 155px;
+height: 120px;
+float: left;
+border-radius: 10px;
+
+  }
+  #home-score2
+  {
+background-color: black;
+margin-left: 390px;
+margin-top: 125px;
+width: 155px;
+height: 120px;
+border-radius: 10px;
+  }
+ #counter1
+ {
+font-family:sans-serif;
+color: #F94F6D;
+font-style:normal;
+font-size: 90px;
+text-align: center;
+vertical-align: top;
+line-height: 126.7px;
+margin-left: 10px;
+margin-top: 125px;
+width: 117px;
+height: 120px;
+ }
+ #counter2
+ {
+font-family: 'cursed-timer-ulil-regular', sans-serif;
+color: #F94F6D;
+font-style:normal;
+font-size: 90px;
+text-align: center;
+vertical-align: top;
+line-height: 126.7px;
+margin-left: 10px;
+margin-top: 125px;
+width: 117px;
+height: 120px;
+ }
+ #homebtn
+ {
+   float: left; 
+   background-color: #3cb0fd;
+   margin-left: 82px;
+   margin-top: 80px;
+    width: 155px;
+    height: 45px;
+    text-align:center ;
+    background-color: darkslateblue;
+ }
+ #guestbtn
+ {
+background-color: #3cb0fd;
+margin-left: 390px;
+margin-top: 80px;
+width: 155px;
+height: 45px;
+text-align:center ;
+background-color: darkslateblue;
+ }
+ #clearbtn{
+    width: auto;
+ }
